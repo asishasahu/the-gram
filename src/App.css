@@ -1,0 +1,1203 @@
+#root {
+  background-color: rgb(233, 232, 232);
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-login {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid blue;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  width: 90%;
+  max-width: 340px;
+  padding: 6px 0;
+}
+.create-new-account {
+  background-color: white;
+  color: blue;
+  border-radius: 15px;
+  width: 90%;
+  padding: 6px 0;
+  max-width: 340px;
+  border: 1px solid blue;
+}
+.login-details {
+  position: fixed;
+  margin: 5px;
+}
+.forgottenPassword {
+  position: fixed;
+}
+
+.forgottenAccount {
+  margin: 10px;
+}
+.backIconPost {
+  margin-top: 10px;
+}
+.find-your-account {
+  text-align: left;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
+.findYourAccount {
+  display: flex;
+}
+.point-findAccount {
+  text-align: left;
+  font-size: smaller;
+}
+.find-account {
+  text-align: left;
+  margin-left: 10px;
+}
+.mobile-num {
+  font-size: small;
+  margin-left: 10px;
+}
+.fillUsernameEmail {
+  width: 93%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+.button-continue {
+  width: 99%;
+  padding: 6px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  margin-top: 10px;
+}
+.cant-reset-password {
+  text-align: left;
+  font-size: smaller;
+  color: blue;
+  font-weight: 500;
+}
+.continue {
+  color: white;
+  background-color: blue;
+
+  width: 90%;
+  margin-top: 5px;
+  max-width: 380px;
+  margin-right: 10px;
+  margin: 0 auto;
+}
+.login-with-facebook {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+.text {
+  font-size: small;
+  margin-top: 3px;
+}
+.instagram {
+  text-align: left;
+  font-style: italic;
+}
+.search-bar {
+  display: flex;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.like-message-icon > img {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.text {
+  margin-right: 20px;
+}
+
+.enterNewPassword {
+  padding: 8px;
+  width: 90%;
+  border: 1px solid grey;
+  margin-top: 20px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.reEnterPassword {
+  padding: 8px;
+  width: 90%;
+  border: 1px solid grey;
+  margin-top: 20px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.editName {
+  width: 90%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+.editBio {
+  width: 90%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.submitProfile {
+  padding: 8px;
+  border-radius: 15px;
+  width: 94%;
+  border: 1px solid blue;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  margin-top: 500px;
+}
+.submitPassword {
+  padding: 6px;
+  border-radius: 20px;
+  width: 95%;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  margin-top: 20px;
+}
+
+.update-profile {
+  padding: 10px;
+  width: 93%;
+  padding-top: 40px;
+}
+.edit-profile {
+  padding: 0px;
+  height: 27px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  margin-top: 7px;
+}
+.editProfile {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+.edit_Profile {
+  font-size: small;
+}
+.login-input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 320px;
+  font-size: 12px;
+  border: 1px solid grey;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email-address-information {
+  margin-bottom: 10px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.enter-confirmation-code {
+  margin: 5px;
+  position: fixed;
+}
+.confirmation-code {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 11px;
+}
+.point-confirmationcode {
+  font-size: smaller;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.button-next {
+  width: 95%;
+  padding: 6px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  margin-top: 15px;
+  background-color: blue;
+  color: white;
+}
+.not-recieve-code {
+  width: 94%;
+  padding: 6px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+}
+
+.confirmationcode {
+  width: 90%;
+  padding: 9px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.email-address {
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  padding: 10px;
+}
+.insta-logo {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.forgot-password {
+  font-size: small;
+  margin-bottom: 115px;
+  margin-top: 10px;
+}
+.english {
+  margin-top: 2px;
+  padding: 5px;
+}
+.mobile-details {
+  width: 90%;
+  margin-left: 10px;
+}
+.create-account-emailaddress {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.create-password {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 11px;
+  margin-bottom: 0px;
+}
+.points-password {
+  text-align: left;
+  margin-left: 10px;
+  font-size: smaller;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+.enter-password {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+}
+.next-button {
+  width: 95%;
+  padding: 6px;
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+  margin-top: 10px;
+  border-color: blue;
+  margin-bottom: 320px;
+}
+.have-an-account {
+  font-size: x-small;
+  color: blue;
+  font-weight: bold;
+  margin-top: 210px;
+}
+.enter-email-address {
+  font-size: small;
+
+  margin-top: 10px;
+}
+.create-a-password {
+  position: fixed;
+}
+
+.create-new-accounts {
+  position: fixed;
+}
+.btn-next {
+  width: 95%;
+  padding: 6px;
+  border-radius: 15px;
+
+  border-color: blue;
+  color: white;
+  background-color: blue;
+}
+.btn-signup-email {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  color: black;
+  background-color: white;
+  width: 90%;
+  padding: 5px 0;
+  border-radius: 15px;
+}
+.have-anAccount {
+  margin-top: 500px;
+  color: blue;
+}
+.backIconCreatePassword {
+  height: 27px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.backlogIconNewPost {
+  height: 27px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.createAPassword {
+  display: flex;
+  margin-top: 10px;
+}
+.backIcon-Password {
+  height: 27px;
+  margin-top: 10px;
+}
+.backIconStrongPassword {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.search-icon {
+  width: 4%;
+}
+.search-header {
+  width: 90%;
+  padding: 2px 0;
+  border-radius: 5px;
+}
+.top-bar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+}
+.close-click-post {
+  margin-left: 10px;
+  line-height: 0px;
+  font-size: 20px;
+}
+.next {
+  margin-right: 10px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.new-post {
+  margin-right: 140px;
+  line-height: 8px;
+  font-size: 15px;
+}
+.upload-recent-photos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.recents {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.selectAddToStory {
+  padding: 5px;
+  height: 28px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-top: 17px;
+}
+.recentsAddToStory {
+  margin-left: 10px;
+  margin-top: 17px;
+}
+.camera-logo {
+  padding: 20px;
+}
+.post {
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 60px;
+  width: 90%;
+  border: 1px solid black;
+}
+.editProfile {
+  margin-left: 25px;
+  margin-top: 22px;
+}
+.nameEditProfile {
+  width: 85%;
+  font-size: 12px;
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.usernameEditProfile {
+  width: 85%;
+  font-size: 12px;
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.bioEditProfile {
+  width: 85%;
+  font-size: 12px;
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.usernameMessageHeader {
+  display: flex;
+}
+.backIconMessage {
+  width: 7%;
+  height: 27px;
+  margin-left: 10px;
+}
+.messageConversationDetails {
+  padding: 10px;
+  width: 90%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 620px;
+}
+.userNameDetails {
+  margin-left: 15px;
+  margin-top: 22px;
+}
+.profilePictureMessage {
+  width: 7%;
+  height: 24px;
+  margin-top: 21px;
+  margin-left: 10px;
+}
+.saveEditProfile {
+  width: 95%;
+  padding: 7px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 15px;
+  margin-top: 360px;
+}
+.backIconEditProfile {
+  display: flex;
+  justify-content: flex-start;
+}
+.likeApplicationMessage {
+  font-style: italic;
+}
+.userNameHomePage {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.postOne {
+  height: 310px;
+}
+.profileOfPost {
+  height: 25px;
+}
+.likeIconHome {
+  height: 35px;
+  margin-left: 10px;
+}
+.commentIconHome {
+  height: 25px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.usersComment {
+  font-size: smaller;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.userCommentSessions {
+  display: flex;
+  justify-content: flex-start;
+}
+.commentbyUser {
+  margin-left: 10px;
+  height: 25px;
+}
+.usernameOnComment {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.postUserNameComments {
+  display: flex;
+  justify-content: flex-start;
+}
+.sendIconHome {
+  height: 24px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.likeCommentShareIcons {
+  display: flex;
+  justify-content: flex-start;
+}
+.profileUsernamePost {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.likeComments {
+  margin-top: 300px;
+  font-family: cursive;
+}
+.welcomeToInstagram {
+  margin-top: 310px;
+}
+.new-post-caption {
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 17px;
+}
+.new-post-photo {
+  width: 97%;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.enterConfirmationCode {
+  display: flex;
+}
+.backArrow {
+  height: 27px;
+  margin-left: 10px;
+
+  margin-top: 10px;
+}
+.homePageIcon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.logoTextHomePage {
+  margin-left: 15px;
+  height: 30px;
+}
+.likeIconHomePage {
+  margin-left: 130px;
+  height: 25px;
+}
+.messageIconHomePage {
+  margin-right: 20px;
+  height: 24px;
+}
+.yourStoryIcon {
+  margin-right: 280px;
+  margin-top: 15px;
+}
+.your-story-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: small;
+}
+.homePagePost {
+  width: 100%;
+}
+.postLikeIcon {
+  margin-left: 15px;
+}
+
+.postSendIcon {
+  margin-left: 20px;
+}
+.likeCommentShare {
+  display: flex;
+  justify-content: flex-start;
+}
+.totalViews {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.usernameCommentor {
+  text-align: left;
+  margin-left: 12px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.commentSession {
+  display: flex;
+}
+.postComment {
+  font-size: small;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+.viewAllComments {
+  text-align: left;
+  margin-left: 11px;
+  margin-top: 2px;
+  font-size: small;
+  margin-bottom: 5px;
+}
+.searchButton {
+  margin-top: 5px;
+  padding: 5px;
+}
+.new-posts {
+  position: fixed;
+}
+.backlogIcon {
+  height: 25px;
+  margin-top: 17px;
+}
+.createAccountEmailAddress {
+  display: flex;
+}
+.backIconCreateAccount {
+  height: 27px;
+  margin-top: 10px;
+}
+.caption-placeholder {
+  padding: 25px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  text-align: start;
+  width: 83%;
+  border-radius: 25px;
+}
+.flex-newPost {
+  display: flex;
+  margin-left: 10px;
+}
+.share-button {
+  padding: 10px;
+  width: 98%;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.upload-photos {
+  font-size: larger;
+  color: black;
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: medium;
+  margin-top: 0px;
+}
+.upload-editPhotos {
+  font-size: smaller;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+
+  margin-bottom: 15px;
+}
+.turnOn {
+  color: blue;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.username {
+  text-align: left;
+  padding: 10px;
+  padding-top: 2px;
+  margin-top: 0px;
+  font-size: small;
+}
+.cap {
+  text-align: left;
+  padding: 10px;
+  padding-top: 2px;
+  margin-top: 0px;
+}
+.addAComment {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.viewComments {
+  text-align: left;
+  padding: 10px;
+  padding-top: 2px;
+  margin-top: 0px;
+}
+.commentSession {
+  text-align: left;
+}
+
+.photoOnComment {
+  margin-left: 0px;
+  width: 22px;
+}
+.commentSessionPost {
+  margin-left: 5px;
+  width: 90%;
+}
+
+.threadIcon {
+  margin-left: 100px;
+}
+.postIcon {
+  margin-right: 40px;
+}
+.profile-name {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.profile-post-follow {
+  display: flex;
+  padding: 10px;
+  padding-bottom: 2px;
+}
+.story-logo {
+  width: 25%;
+}
+.posts {
+  width: 25%;
+}
+.followers {
+  width: 25%;
+}
+.following {
+  width: 25%;
+}
+.backIconMessage {
+  height: 27px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.userNameMessage {
+  margin-left: 15px;
+}
+.messageRequest {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 105px;
+}
+.searchPhotoSession {
+  margin-top: 10px;
+}
+.closeAddToStory {
+  width: 10%;
+  font-weight: bold;
+  margin-left: 2px;
+}
+.addToStory {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-right: 130px;
+  margin-bottom: 35px;
+}
+.recentSelectDetails {
+  display: flex;
+  justify-content: space-between;
+}
+/* .selectButton {
+  float: inline-end;
+  margin-right: 10px;
+  margin-top: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 7px;
+} */
+.cameraPhotoIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cameraPhotoTexts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cameraUpload {
+  margin-top: 1px;
+}
+.photosUpload {
+  margin-top: 1px;
+}
+.addToStoryDetails {
+  display: flex;
+  justify-content: flex-start;
+}
+.messageByUser {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.messageDetails {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.messageDetailsOne {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.messageDetailsTwo {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.profilePictureonMessage {
+  float: left;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.searchMessage {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+.messageUserNameBackIcon {
+  display: flex;
+}
+.messagesList {
+  margin-left: 20px;
+}
+.requestsList {
+  margin-right: 20px;
+}
+.profileName {
+  text-align: left;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.bioDetails {
+  text-align: left;
+  padding: 10px;
+  padding-top: 1px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 7px;
+}
+
+.addConnection {
+  padding: 10px;
+  height: 30px;
+}
+.discover-seeAll {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 5px;
+  margin-bottom: 155px;
+}
+.discoverPepole {
+  font-weight: bold;
+}
+.seeAll {
+  color: blue;
+  font-family: bold;
+}
+
+.numeric {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: center;
+}
+.terms {
+  margin-top: 5px;
+  margin-left: 7px;
+  text-align: center;
+}
+.btn {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid grey;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-item {
+  position: relative;
+  /* flex: 1 0 22rem; */
+  /* margin: 1rem; */
+  color: #fff;
+  cursor: pointer;
+  width: 33%;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+  /* margin: -1rem -1rem;
+  padding-bottom: 3rem; */
+}
+.footerIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 3px;
+}
+.post-Details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 0px;
+}
+.search-bar {
+  width: 90%;
+  padding: 7px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.profileIcon {
+  width: 25px;
+  padding: 3px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.idName {
+  line-height: 0px;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.birdPhoto {
+  width: 100%;
+}
+.postBottomIcons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  height: 25px;
+  padding-bottom: 10px;
+}
+.likeLogo {
+  width: 27px;
+}
+
+.likeComment {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.profilesIcon {
+  width: 22px;
+  height: 25px;
+}
+.likedBy {
+  line-height: 0px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.lineTag {
+  padding: 1px;
+}
+.usernameDetails {
+  padding: 10px;
+  padding-top: 0px;
+  font-weight: bold;
+}
+
+/* .table1 {
+  padding: 5px;
+  text-align: left;
+
+  margin: 0;
+}
+.tableOne {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.tableOne {
+  padding-top: 10px;
+}
+.tableTwo {
+  padding-top: 10px;
+}
+.tableThree {
+  padding-top: 10px;
+}
+.tableFour {
+  padding-top: 10px;
+}
+.tableFive {
+  padding-top: 10px;
+}
+.tableSix {
+  padding-top: 10px;
+} */
+.verifyuser {
+  margin: 5px;
+}
+.verify-code {
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+.four-digit-confirmation {
+  font-size: smaller;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+.verificationOtp {
+  width: 90%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.submitButton-verifyUser {
+  width: 95%;
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+}
+.backIconConfirmationCode {
+  display: flex;
+}
+.backIcon-ConfirmationCode {
+  height: 27px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.strongPassword {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+.password-characters {
+  font-size: smaller;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.postUserProfile {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 5px;
+}
+
+.profilePictureofUser {
+  height: 20px;
+  width: auto;
+  margin-left: 10px;
+}
+.userNamePost {
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.postTime {
+  margin-top: 0px;
+  font-size: small;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}

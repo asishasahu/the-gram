@@ -18,8 +18,8 @@ restore the dumb from the directory
 
 # Test user details to run the app
 
-Username: asisha85, Password: 123456
-Username: anuj249, Password: new123
+- Username: asisha85, Password: 123456
+- Username: anuj249, Password: new123
 
 # Other details
 

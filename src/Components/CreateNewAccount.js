@@ -15,7 +15,7 @@ const CreateNewAccount = () => {
 
   const handleGenerateOTP = () => {
     setLoading(true);
-    let url = `http://localhost:3001/generateOtp?mobile=${mobile}&userName=${uname}`;
+    let url = `https://the-gram-backend.onrender.com/generateOtp?mobile=${mobile}&userName=${uname}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -30,7 +30,7 @@ const CreateNewAccount = () => {
 
   const handleVerifyOTP = () => {
     setLoading(true);
-    let url = `http://localhost:3001/verifyOtp?mobile=${mobile}&otp=${otp}`;
+    let url = `https://the-gram-backend.onrender.com/verifyOtp?mobile=${mobile}&otp=${otp}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {

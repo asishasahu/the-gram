@@ -8,7 +8,7 @@ const PostComponent = (props) => {
   const loggedInUser = getCookie("cuserName");
 
   const handleLikeClick = (unlike) => {
-    fetch("http://localhost:3001/likePost", {
+    fetch("https://the-gram-backend.onrender.com/likePost", {
       method: "POST",
       headers: {
         "content-type": "application/json",

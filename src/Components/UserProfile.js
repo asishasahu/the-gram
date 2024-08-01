@@ -19,7 +19,7 @@ const UserProfile = () => {
   const [photos, setPhotos] = useState([]);
 
   const fetchCountOfPost = () => {
-    let url = `http://localhost:3001/fetchMyProfile?uname=${userName}`;
+    let url = `https://the-gram-backend.onrender.com/fetchMyProfile?uname=${userName}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -31,7 +31,7 @@ const UserProfile = () => {
       });
   };
   const fetchMyPhotos = () => {
-    let url = `http://localhost:3001/fetchMyPhotos?postName=${userName}`;
+    let url = `https://the-gram-backend.onrender.com/fetchMyPhotos?postName=${userName}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -40,7 +40,7 @@ const UserProfile = () => {
   };
   // map method
   const fetchPostByTag = () => {
-    let url = `http://localhost:3001/fetchPostbyTag?userInfo=${userName}&loggedInUser=${loggedInUser}`;
+    let url = `https://the-gram-backend.onrender.com/fetchPostbyTag?userInfo=${userName}&loggedInUser=${loggedInUser}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -56,7 +56,7 @@ const UserProfile = () => {
   useEffect(fetchMyPhotos, []);
 
   const handleFollowClick = () => {
-    fetch("http://localhost:3001/follow", {
+    fetch("https://the-gram-backend.onrender.com/follow", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -86,7 +86,7 @@ const UserProfile = () => {
   };
 
   const handleMessageClick = () => {
-    fetch("http://localhost:3001/createChat", {
+    fetch("https://the-gram-backend.onrender.com/createChat", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -8,7 +8,7 @@ const PhotoPost = () => {
   const [postData, setPostData] = useState({});
 
   const fetchPostDetails = () => {
-    let url = `http://localhost:3001/fetchPostDetails?id=${postId}`;
+    let url = `https://the-gram-backend.onrender.com/fetchPostDetails?id=${postId}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {

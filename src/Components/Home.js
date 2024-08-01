@@ -11,7 +11,7 @@ function Home() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/fetchfeed", {
+    fetch("https://the-gram-backend.onrender.com/fetchfeed", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -39,7 +39,7 @@ function Home() {
   }, []);
 
   const handleMessageClick = () => {
-    fetch("http://localhost:3001/searchmessage", {
+    fetch("https://the-gram-backend.onrender.com/searchmessage", {
       method: "GET",
       headers: {
         "content-type": "application/json",

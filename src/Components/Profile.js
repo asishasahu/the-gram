@@ -15,7 +15,7 @@ const Profile = () => {
   const [photos, setPhotos] = useState([]);
 
   const fetchCountOfPost = () => {
-    let url = `http://localhost:3001/fetchMyProfile?uname=${feusername}`;
+    let url = `https://the-gram-backend.onrender.com/fetchMyProfile?uname=${feusername}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -27,7 +27,7 @@ const Profile = () => {
       });
   };
   const fetchMyPhotos = () => {
-    let url = `http://localhost:3001/fetchMyPhotos?postName=${feusername}`;
+    let url = `https://the-gram-backend.onrender.com/fetchMyPhotos?postName=${feusername}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {
@@ -36,7 +36,7 @@ const Profile = () => {
   };
   // map method
   const fetchPostByTag = () => {
-    let url = `http://localhost:3001/fetchPostbyTag?userInfo=${feusername}`;
+    let url = `https://the-gram-backend.onrender.com/fetchPostbyTag?userInfo=${feusername}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {

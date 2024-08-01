@@ -6,7 +6,7 @@ const ForgottenPassword = () => {
   const [userName, setUserName] = useState("");
 
   const handleContinueClick = () => {
-    fetch("http://localhost:3001/checkuserexist", {
+    fetch("https://the-gram-backend.onrender.com/checkuserexist", {
       method: "POST",
       headers: {
         "content-type": "application/json",

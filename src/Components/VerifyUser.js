@@ -6,7 +6,7 @@ const VerifyUser = () => {
   const [params] = useSearchParams();
   const [otp, setOtp] = useState("");
   const handleSubmitClick = () => {
-    fetch("http://localhost:3001/verifyOtpForgetPassword", {
+    fetch("https://the-gram-backend.onrender.com/verifyOtpForgetPassword", {
       method: "POST",
       headers: {
         "content-type": "application/json",

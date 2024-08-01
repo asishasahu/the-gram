@@ -17,7 +17,7 @@ const Search = () => {
 
   const handleSearch = (e) => {
     if (e.key === "Enter") {
-      let url = `http://localhost:3001/search?searchkeyword=${searchKeyword}`;
+      let url = `https://the-gram-backend.onrender.com/search?searchkeyword=${searchKeyword}`;
       fetch(url)
         .then((response) => response.json())
         .then((res) => {

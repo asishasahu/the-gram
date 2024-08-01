@@ -9,7 +9,7 @@ function NewPost() {
   const navigate = useNavigate();
 
   const handleShareClick = () => {
-    fetch("http://localhost:3001/uploadPhoto", {
+    fetch("https://the-gram-backend.onrender.com/uploadPhoto", {
       method: "POST",
       headers: {
         "content-type": "application/json",

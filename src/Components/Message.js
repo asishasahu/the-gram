@@ -8,7 +8,7 @@ const Message = () => {
   const [chats, setChats] = useState([]);
 
   const fetchAllChats = () => {
-    let url = `http://localhost:3001/fetchChats?userName=${feusername}`;
+    let url = `https://the-gram-backend.onrender.com/fetchChats?userName=${feusername}`;
     fetch(url)
       .then((response) => response.json())
       .then((res) => {

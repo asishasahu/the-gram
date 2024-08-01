@@ -14,7 +14,7 @@ const UpdatePassword = () => {
     setReenterPassword(e.target.value);
   };
   const clickSubmitChange = () => {
-    fetch("http://localhost:3001/setnewpassword", {
+    fetch("https://the-gram-backend.onrender.com/setnewpassword", {
       method: "POST",
       headers: {
         "content-type": "application/json",

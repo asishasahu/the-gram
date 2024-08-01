@@ -9,7 +9,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const handleLoginClick = () => {
-    fetch("http://localhost:3001/authenticate", {
+    fetch("https://the-gram-backend.onrender.com/authenticate", {
       method: "POST",
       headers: {
         "content-type": "application/json",

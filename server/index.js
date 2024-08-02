@@ -56,7 +56,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/", mainRoute);
 
-mongoose.connect("mongodb://127.0.0.1:5000/the-gram-db");
+mongoose.connect("mongodb+srv://asishasahu:CCQO5U8nvYZBnUne@the-gram-cluster.q1jcp1e.mongodb.net//the-gram-db");
 
 app.use(
   cors({

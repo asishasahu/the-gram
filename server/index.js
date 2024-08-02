@@ -53,17 +53,14 @@ app.ws("/chat/:userName/:loggedInUser/:chatId", function (ws, req) {
 });
 
 app.use(cors());
+
+app.options('*', cors()) // include before other routes
+
 app.use(express.json());
 app.use("/", mainRoute);
 
 mongoose.connect("mongodb+srv://asishasahu:CCQO5U8nvYZBnUne@the-gram-cluster.q1jcp1e.mongodb.net//the-gram-db");
 
-app.use(
-  cors({
-    origin: "*", // Wildcard is NOT for Production
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  }),
-);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });

@@ -59,7 +59,7 @@ app.options('*', cors()) // include before other routes
 app.use(express.json());
 app.use("/", mainRoute);
 
-mongoose.connect("mongodb+srv://asishasahu:CCQO5U8nvYZBnUne@the-gram-cluster.q1jcp1e.mongodb.net//the-gram-db");
+mongoose.connect("mongodb+srv://asishasahu:CCQO5U8nvYZBnUne@the-gram-cluster.q1jcp1e.mongodb.net/the-gram-db");
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
